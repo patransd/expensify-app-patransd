@@ -12,15 +12,6 @@ import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 
-store.dispatch(addExpense({description: 'Elli Trip Japan', amount: 412}));
-store.dispatch(addExpense({description: 'ELLIP JAPNn', amount: -21321, createdAt: 1000}));
-store.dispatch(addExpense({description: 'AirBnb', amount: 321321321}));
-
-
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses);
-
 const jsx = (
     <Provider store ={store}>
         <AppRouter />
