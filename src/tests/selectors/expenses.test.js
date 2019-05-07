@@ -74,8 +74,8 @@ test('should filter by amount', () => {
 
     const result = selectExpenses(expenses, filters);
     expect(result).toEqual([
-        expenses[1],
+        expenses[0],
         expenses[2],
-        expenses[0]
+        expenses[1]
     ]);
 });

@@ -10,12 +10,12 @@ export default [{
     id: '2',
     description: 'Phillip',
     notes: '',
-    amount: 1332121,
+    amount: 10,
     createdAt: moment(0).subtract(4, 'days').valueOf()
 }, {
     id: '3',
     description: 'ELLIP',
     notes: '',
-    amount: 2311,
+    amount: 20,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
